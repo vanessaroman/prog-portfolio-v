@@ -1,10 +1,12 @@
-import Image from 'next/image'
+'use client'
+
+import Hero from "@/components/Hero"
 
 
 export default function Home() {
   return (
    <>
-    <h1>hello</h1>
+    <Hero />
    </>
   )
 }

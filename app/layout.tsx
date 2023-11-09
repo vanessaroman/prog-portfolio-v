@@ -3,6 +3,7 @@
 import type { Metadata } from 'next'
 import { ChakraProvider } from '@chakra-ui/react'
 import NavBar from '@/components/NavBar'
+import Footer from '@/components/Footer'
 
 
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <ChakraProvider>
           <NavBar />
         {children}
+          <Footer />
         </ChakraProvider>
         </body>
     </html>

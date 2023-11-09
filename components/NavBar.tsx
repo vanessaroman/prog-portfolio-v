@@ -104,7 +104,7 @@ export default function WithAction() {
         ) : null}
       </Box>
 
-      <Box p={4}>Main Content Here</Box>
+      
     </>
   )
 }
